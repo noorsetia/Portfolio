@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+body {
+    /* font-family: Arial, sans-serif; */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    font-family:'Lora' , 'Georgia' , 'serif';
+    background-image: url("smeared-bright-ink-light-pink-color-shades-gradient-illustration-textured-paper-background-smeared-bright-ink-light-pink-color-148118628.webp");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+header {
+    background: #ff006a;
+    color: #201c67;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #201c67 ;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e0e0e0;
+}
+
+h1 {
+    margin: 0.5rem 0;
+}
+
+section {
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+section#qualifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#qualifications li {
+    background: #fff;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.skill {
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.main{
+    font-weight: 700px;
+    font-size: 50px;
+    /* font-family: cursive; */
+    
+}
+span{
+    color:red;
+    font-size:30px;
+    /* font-family:dancing script; */
+}
+p{
+    font-size:25px;
+}
+.pic{
+    width:600px;
+    height:400px;
+}
+.tech{
+    width:800px;
+} 
+.dem {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items :center;
+}
+.rem {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+#cs{
+    border:10px solid #d36868;
+    border-radius:20px;
+    display:inline-block;
+    font-size:20px;
+}
+#work{
+    border:10px solid #cd4a4a;
+    border-radius:20px;
+    display:inline-block;
+    font-size:20px;
+}
